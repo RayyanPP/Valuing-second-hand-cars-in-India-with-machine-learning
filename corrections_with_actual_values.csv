@@ -1,0 +1,332 @@
+excel_row_original,Name,Year,column,original_value,corrected_value,action,confidence,source_or_reason
+426,Volkswagen Jetta 1.9 L TDI,2010,Engine,1968,1896,Replace,High,"CarDekho Jetta 2007-2011 1.9 TDI: 1896 cc, 105 PS (103.6 bhp)"
+1015,Mahindra Scorpio 2.6 LX,2008,Engine,2179,2609,Replace,Low,"Name says 2.6; the 'Scorpio 2.6 DX' listings in the dataset has 2609 cc / 116.6 bhp / 12.7 kmpl. Current values (2179 cc, 120 bhp) are the later 2.2 mHawk's"
+1384,Maruti Wagon R LXI Minor,2009,Engine,998,1061,Replace,Medium,Other 2006-2009 Wagon R LXI Minor listings: 1061 cc (the 998 cc engine arrived in 2010)
+1765,Chevrolet Cruze LTZ,2011,Engine,1998,1991,Replace,Medium,"2011 Cruze (before the 2012 facelift) = 1991 cc / 147.9 bhp, as in other pre-2012 Cruze LTZ listings in the dataset"
+2051,Mahindra Scorpio 2.6 CRDe,2013,Engine,2179,2609,Replace,Medium,"Name says 2.6; the 'Scorpio 2.6 DX' listings in the dataset has 2609 cc / 116.6 bhp / 12.7 kmpl. Current values (2179 cc, 120 bhp) are the later 2.2 mHawk's"
+2524,Mahindra Scorpio 2.6 CRDe,2005,Engine,2179,2609,Replace,Medium,"Name says 2.6; the 'Scorpio 2.6 DX' listings in the dataset has 2609 cc / 116.6 bhp / 12.7 kmpl. Current values (2179 cc, 120 bhp) are the later 2.2 mHawk's"
+2625,BMW 5 Series 520d Sedan,2012,Engine,1195,1995,Replace,High,"CarDekho BMW 5 Series 2010-2013 520d Sedan: 1995 cc, 177 PS, 18.48 kmpl"
+3103,Chevrolet Enjoy TCDi LS 8 Seater,2011,Engine,1461,1248,Replace,Medium,"This row carries a Nissan Micra diesel's specs (1461 cc, 63.1 bhp, 23.08 kmpl); other Enjoy TCDi 8-seater listings in the dataset: 1248 cc, 73.8 bhp, 18.2 kmpl, 8 seats"
+3226,Tata Sumo EX,2016,Engine,1948,2956,Replace,Medium,Other Sumo EX listings: 2956 cc with the same 83 bhp
+3522,BMW 5 Series 520d Sedan,2012,Engine,1195,1995,Replace,High,"CarDekho BMW 5 Series 2010-2013 520d Sedan: 1995 cc, 177 PS, 18.48 kmpl"
+3524,Hyundai Santro GLS II - Euro II,2012,Engine,1462,1086,Replace,Low,1462 cc does not exist for a Santro; a 2012 Santro is the 1086 cc Santro Xing
+4579,BMW 5 Series 520d Sedan,2012,Engine,1195,1995,Replace,High,"CarDekho BMW 5 Series 2010-2013 520d Sedan: 1995 cc, 177 PS, 18.48 kmpl"
+4811,Mahindra Scorpio 2.6 LX,2010,Engine,2179,2609,Replace,Low,"Name says 2.6; the 'Scorpio 2.6 DX' listings in the dataset has 2609 cc / 116.6 bhp / 12.7 kmpl. Current values (2179 cc, 120 bhp) are the later 2.2 mHawk's"
+5017,Maruti Swift 1.3 Vxi,2006,Engine,1197,1298,Replace,Medium,"CarDekho Swift 2004-2010 1.3 VXi: 1298 cc, 88.2, 16.1 kmpl; the 1197 cc Swift petrol only arrived in 2010"
+5500,Mahindra Scorpio 2.6 SLX CRDe,2006,Engine,2179,2609,Replace,Medium,"Name says 2.6; the 'Scorpio 2.6 DX' listings in the dataset has 2609 cc / 116.6 bhp / 12.7 kmpl. Current values (2179 cc, 120 bhp) are the later 2.2 mHawk's"
+5517,Mahindra Scorpio 2.6 SLX CRDe,2005,Engine,2179,2609,Replace,Medium,"Name says 2.6; the 'Scorpio 2.6 DX' listings in the dataset has 2609 cc / 116.6 bhp / 12.7 kmpl. Current values (2179 cc, 120 bhp) are the later 2.2 mHawk's"
+5798,Volkswagen Polo 1.2 MPI Trendline,2016,Engine,999,1198,Replace,High,Name says 1.2 MPI; other listings 1198 cc
+4906,Toyota Prius 2009-2016 Z4,2011,Fuel_Type,Electric,Petrol,Replace,Medium,"The Prius is a petrol hybrid, not an electric car (or create a 'Hybrid' category)"
+342,Skoda Octavia Ambition Plus 2.0 TDI AT,2013,Kilometers_Driven,775000,77500,Replace,Medium,"Most likely an extra zero: 77,500 km = 12,917 km/year"
+360,Hyundai i10 Magna 1.2,2009,Kilometers_Driven,620000,62000,Replace,Medium,"Most likely an extra zero: 62,000 km = 6,200 km/year"
+1862,Volkswagen Vento Diesel Highline,2013,Kilometers_Driven,720000,72000,Replace,Medium,"Most likely an extra zero: 72,000 km = 12,000 km/year"
+2330,BMW X5 xDrive 30d M Sport,2017,Kilometers_Driven,6500000,65000,Replace,Medium,"Most likely 65,000 (two extra zeros); a 2017 car cannot have 6.5 million km"
+2825,Volkswagen Jetta 2013-2015 2.0L TDI Highline AT,2015,Kilometers_Driven,480000,48000,Replace,Medium,"Most likely an extra zero: 48,000 km = 12,000 km/year"
+3094,Honda City i VTEC SV,2015,Kilometers_Driven,480000,48000,Replace,Medium,"Most likely an extra zero: 48,000 km = 12,000 km/year"
+4493,Hyundai i20 Magna Optional 1.2,2013,Kilometers_Driven,445000,44500,Replace,Medium,"Most likely an extra zero: 44,500 km = 7,417 km/year"
+16,Land Rover Freelander 2 TD4 SE,2012,Mileage,5.0,12.39,Replace,High,"CarDekho Freelander 2 SE: 2179 cc, 147.51 bhp, 12.39 kmpl (115 matches no published bhp figure for this engine; probably a unit or entry error)"
+69,Mercedes-Benz C-Class Progressive C 220d,2019,Mileage,0.0,12.6,Replace,High,"CarDekho New C-Class Progressive C 220d: 1950 cc, 194 bhp, 12.6 kmpl"
+81,Hyundai Santro Xing XL,2005,Mileage,0.0,17.92,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+229,Maruti Swift VDI BSIV,2013,Mileage,17.8,22.9,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+231,Ford Figo Diesel,2015,Mileage,1196.0,25.83,Replace,High,"CarDekho Figo 2015-2019 1.5D: 1498 cc, 99 bhp, 25.83 kmpl"
+264,Hyundai Santro Xing XL,2006,Mileage,1086.0,17.92,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+310,Maruti Swift VDI BSIV,2011,Mileage,17.8,22.9,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+741,Maruti Swift VDI BSIV,2007,Mileage,17.8,22.9,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+1015,Mahindra Scorpio 2.6 LX,2008,Mileage,10.5,12.7,Replace,Low,as above
+1145,Maruti Swift VDI BSIV,2013,Mileage,17.8,22.9,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+1390,Maruti Swift VDI BSIV,2013,Mileage,17.8,22.9,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+1765,Chevrolet Cruze LTZ,2011,Mileage,17.9,18.3,Replace,Medium,"2011 Cruze (before the 2012 facelift) = 1991 cc / 147.9 bhp, as in other pre-2012 Cruze LTZ listings in the dataset"
+2051,Mahindra Scorpio 2.6 CRDe,2013,Mileage,10.5,12.7,Replace,Low,as above
+2166,Maruti Swift VDI BSIV W ABS,2010,Mileage,17.8,22.9,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+2499,Maruti Swift VDI BSIV,2013,Mileage,17.8,22.9,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+2503,Maruti Swift VDI BSIV,2016,Mileage,17.8,25.2,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+2524,Mahindra Scorpio 2.6 CRDe,2005,Mileage,10.5,12.7,Replace,Low,as above
+2642,Maruti Swift VDI BSIV,2007,Mileage,17.8,22.9,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+2893,Maruti Swift VDI BSIV,2013,Mileage,17.8,22.9,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+3035,Hyundai Santro Xing XP,2005,Mileage,999.0,17.92,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+3046,Hyundai Santro Xing GL,2009,Mileage,0.0,17.92,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+3095,Audi A7 2011-2015 Sportback,2012,Mileage,0.0,14.4,Replace,Medium,CarDekho A7 2011-2015: Sportback has no published mileage; same 3.0 TDI engine rated 14.4 kmpl
+3103,Chevrolet Enjoy TCDi LS 8 Seater,2011,Mileage,23.08,18.2,Replace,Medium,"This row carries a Nissan Micra diesel's specs (1461 cc, 63.1 bhp, 23.08 kmpl); other Enjoy TCDi 8-seater listings in the dataset: 1248 cc, 73.8 bhp, 18.2 kmpl, 8 seats"
+3106,Maruti Swift VDI BSIV,2013,Mileage,17.8,22.9,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+3273,Hyundai Santro Xing GL,2008,Mileage,999.0,17.92,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+3441,Maruti Swift VDI BSIV W ABS,2010,Mileage,17.8,22.9,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+3630,Maruti Swift VDI BSIV W ABS,2016,Mileage,17.8,25.2,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+3932,Maruti Swift VDI BSIV W ABS,2015,Mileage,17.8,25.2,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+4304,Hyundai Santro Xing GL,2012,Mileage,12.8,17.92,Replace,Medium,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+4689,Land Rover Freelander 2 TD4 SE,2012,Mileage,0.0,12.39,Replace,High,"CarDekho Freelander 2 SE: 2179 cc, 147.51 bhp, 12.39 kmpl (115 matches no published bhp figure for this engine; probably a unit or entry error)"
+4811,Mahindra Scorpio 2.6 LX,2010,Mileage,10.5,12.7,Replace,Low,as above
+5024,Land Rover Freelander 2 TD4 SE,2013,Mileage,0.0,12.39,Replace,High,"CarDekho Freelander 2 SE: 2179 cc, 147.51 bhp, 12.39 kmpl (115 matches no published bhp figure for this engine; probably a unit or entry error)"
+5067,Maruti Swift VDI BSIV W ABS,2016,Mileage,17.8,25.2,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+5313,Land Rover Freelander 2 TD4 SE,2012,Mileage,0.0,12.39,Replace,High,"CarDekho Freelander 2 SE: 2179 cc, 147.51 bhp, 12.39 kmpl (115 matches no published bhp figure for this engine; probably a unit or entry error)"
+5460,Maruti Swift VDI BSIV,2014,Mileage,17.8,25.2,Replace,Medium,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl; 2014+ facelift rated 25.2 kmpl (other Swift VDI BSIV listings in the dataset)"
+5500,Mahindra Scorpio 2.6 SLX CRDe,2006,Mileage,10.5,12.7,Replace,Low,as above
+5517,Mahindra Scorpio 2.6 SLX CRDe,2005,Mileage,10.5,12.7,Replace,Low,as above
+5798,Volkswagen Polo 1.2 MPI Trendline,2016,Mileage,18.78,16.47,Replace,Medium,Other Polo 1.2 MPI listings: 16.47 kmpl
+5877,Mercedes-Benz C-Class Progressive C 220d,2019,Mileage,0.0,12.6,Replace,High,"CarDekho New C-Class Progressive C 220d: 1950 cc, 194 bhp, 12.6 kmpl"
+5974,Hyundai Santro Xing GL,2008,Mileage,12.8,17.92,Replace,Medium,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+1354,Land Rover Range Rover 3.6 TDV8 Vogue SE,2012,Name,Land Rover Range Rover 3.6 TDV8 Vogue SE,Land Rover Range Rover 4.4 TDV8 Vogue SE,Replace,Medium,"Engine 4367 cc / 308 bhp and Year 2012 match the 4.4 TDV8 sold 2010-2012; the 3.6 TDV8 ended in 2010, so the name is the wrong part"
+4871,Land Rover Range Rover 3.6 TDV8 Vogue SE,2012,Name,Land Rover Range Rover 3.6 TDV8 Vogue SE,Land Rover Range Rover 4.4 TDV8 Vogue SE,Replace,Medium,"Engine 4367 cc / 308 bhp and Year 2012 match the 4.4 TDV8 sold 2010-2012; the 3.6 TDV8 ended in 2010, so the name is the wrong part"
+16,Land Rover Freelander 2 TD4 SE,2012,Power,115.0,147.51,Replace,High,"CarDekho Freelander 2 SE: 2179 cc, 147.51 bhp, 12.39 kmpl (115 matches no published bhp figure for this engine; probably a unit or entry error)"
+78,Ford Fiesta 1.4 SXi TDCi,2008,Power,112.0,68,Replace,Medium,other listings of the same model/engine in the dataset
+81,Hyundai Santro Xing XL,2005,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+91,Hyundai Santro Xing XO,2007,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+122,Hyundai Santro Xing XL eRLX Euro III,2005,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+145,Hyundai Santro Xing XO eRLX Euro II,2008,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+196,Honda City 1.5 GXI,2007,Power,112.0,100,Replace,Low,other listings of the same model/engine in the dataset (City 1.5 GXI)
+210,Maruti Swift 1.3 VXi,2010,Power,112.0,85.8,Replace,Medium,1197 cc K-series Swift (2010+) = 85.8 bhp in the dataset; the name's '1.3' is inconsistent
+229,Maruti Swift VDI BSIV,2013,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+247,Hyundai Santro Xing XO eRLX Euro II,2007,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+264,Hyundai Santro Xing XL,2006,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+309,Hyundai Santro Xing XL,2006,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+310,Maruti Swift VDI BSIV,2011,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+388,Hyundai Santro Xing XL eRLX Euro III,2007,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+426,Volkswagen Jetta 1.9 L TDI,2010,Power,112.0,103.6,Replace,High,"CarDekho Jetta 2007-2011 1.9 TDI: 1896 cc, 105 PS (103.6 bhp)"
+430,Hyundai Santro Xing XO eRLX Euro II,2006,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+445,Hyundai Santro GLS I - Euro I,2012,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+474,Ford Fiesta 1.6 SXI ABS Duratec,2009,Power,112.0,101,Replace,Medium,other listings of the same model/engine in the dataset
+529,Fiat Linea T Jet,2013,Power,112.0,112.4,Replace,High,"Linea T-Jet 1.4 turbo = 114 PS (112.4 bhp, as in other Linea T-Jet listings in the dataset)"
+577,Hyundai Santro Xing XO,2006,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+633,Hyundai Santro LS zipPlus,2002,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+649,Hyundai Santro Xing XP,2004,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+650,Tata Indica DLS,2009,Power,112.0,53.5,Replace,Medium,other listings of the same model/engine in the dataset (Indica 1405 cc diesel)
+735,Maruti Swift 1.3 VXi,2006,Power,112.0,88.2,Replace,High,"CarDekho Swift 2004-2010 1.3 VXi: 1298 cc, 88.2, 16.1 kmpl"
+741,Maruti Swift VDI BSIV,2007,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+750,Hyundai Santro Xing XO,2007,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+751,Land Rover Range Rover 3.0 D,2008,Power,112.0,174.5,Replace,Medium,Range Rover (L322) Td6 3.0 diesel = 177 PS (174.5 bhp)
+831,Toyota Etios Liva G,2012,Power,112.0,78.9,Replace,High,CarDekho and other listings in the dataset: Etios 1.4 diesel 67.04 bhp; Etios Liva G petrol 78.9 bhp
+917,Smart Fortwo CDI AT,2008,Power,112.0,44.4,Replace,Medium,auto-data.net fortwo (C451) 0.8 cdi: 45 PS = 44.4 bhp
+928,Porsche Cayman S,2010,Power,112.0,315.6,Replace,High,"auto-data.net Cayman S (987c, 2009-2012): 320 PS = 315.6 bhp"
+936,Toyota Etios GD,2012,Power,112.0,67.04,Replace,High,CarDekho and other listings in the dataset: Etios 1.4 diesel 67.04 bhp; Etios Liva G petrol 78.9 bhp
+1015,Mahindra Scorpio 2.6 LX,2008,Power,120.0,116.6,Replace,Low,as above
+1070,Toyota Etios Liva GD,2012,Power,112.0,67.04,Replace,High,CarDekho and other listings in the dataset: Etios 1.4 diesel 67.04 bhp; Etios Liva G petrol 78.9 bhp
+1145,Maruti Swift VDI BSIV,2013,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+1155,Hyundai Santro Xing XL eRLX Euro III,2007,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+1261,Land Rover Freelander 2 TD4 S,2010,Power,115.0,147.51,Replace,Medium,"CarDekho Freelander 2 SE: 2179 cc, 147.51 bhp, 12.39 kmpl (115 matches no published bhp figure for this engine; probably a unit or entry error)"
+1273,Hyundai Santro GLS I - Euro II,2009,Power,112.0,55.2,Replace,Medium,"ZigWheels Santro history: original 999 cc Santro = 56 PS (55.2 bhp); Zip Plus 1.1 = 63 PS; NOTE the 999 cc Santro was sold only until 2003, so Year or Engine is also doubtful"
+1321,Fiat Petra 1.2 EL,2005,Power,112.0,72,Replace,Medium,"maxabout Petra 1.2 EL: 1242 cc, 72 bhp"
+1329,Maruti Swift 1.3 ZXI,2015,Power,112.0,85.8,Replace,Medium,1197 cc K-series Swift (2010+) = 85.8 bhp in the dataset; the name's '1.3' is inconsistent
+1347,Maruti Baleno Vxi,2005,Power,112.0,94,Replace,Medium,other listings of the same model/engine in the dataset (old Baleno 1.6)
+1387,Honda City 1.5 GXI,2004,Power,112.0,100,Replace,Medium,other listings of the same model/engine in the dataset (City 1.5 GXI)
+1390,Maruti Swift VDI BSIV,2013,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+1421,Hyundai Santro Xing XL,2007,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+1557,Chevrolet Optra 1.6 Elite,2005,Power,112.0,102.5,Replace,Medium,other listings of the same model/engine in the dataset
+1580,Mahindra Bolero ZLX,2012,Power,112.0,62.1,Replace,Medium,other listings of the same model/engine in the dataset (Bolero 2523 cc m2DiCR = 62.1 bhp)
+1651,Toyota Etios Liva GD,2011,Power,112.0,67.04,Replace,High,CarDekho and other listings in the dataset: Etios 1.4 diesel 67.04 bhp; Etios Liva G petrol 78.9 bhp
+1674,Nissan Micra Diesel,2011,Power,112.0,63.1,Replace,Medium,other listings of the same model/engine in the dataset
+1765,Chevrolet Cruze LTZ,2011,Power,163.7,147.9,Replace,Medium,"2011 Cruze (before the 2012 facelift) = 1991 cc / 147.9 bhp, as in other pre-2012 Cruze LTZ listings in the dataset"
+1859,Hyundai Santro DX,2007,Power,112.0,55.2,Replace,Medium,"ZigWheels Santro history: original 999 cc Santro = 56 PS (55.2 bhp); Zip Plus 1.1 = 63 PS; NOTE the 999 cc Santro was sold only until 2003, so Year or Engine is also doubtful"
+2001,Mercedes-Benz E-Class 220 CDI,2001,Power,112.0,141,Replace,Medium,E 220 CDI: W210 (1999-2002) 143 PS = 141 bhp; W212 (2009+) 170 PS (as in other E 220 CDI listings in the dataset)
+2051,Mahindra Scorpio 2.6 CRDe,2013,Power,120.0,116.6,Replace,Medium,as above
+2076,Maruti Swift 1.3 LXI,2011,Power,112.0,85.8,Replace,Medium,1197 cc K-series Swift (2010+) = 85.8 bhp in the dataset; the name's '1.3' is inconsistent
+2098,Hyundai Santro LP zipPlus,2004,Power,112.0,55.2,Replace,Low,"ZigWheels Santro history: original 999 cc Santro = 56 PS (55.2 bhp); Zip Plus 1.1 = 63 PS; Zip Plus normally had the 1.1 (1086 cc, 62.1 bhp), so Engine may be wrong too"
+2132,Hyundai Santro GLS I - Euro II,2012,Power,112.0,55.2,Replace,Medium,"ZigWheels Santro history: original 999 cc Santro = 56 PS (55.2 bhp); Zip Plus 1.1 = 63 PS; NOTE the 999 cc Santro was sold only until 2003, so Year or Engine is also doubtful"
+2166,Maruti Swift VDI BSIV W ABS,2010,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+2264,Toyota Etios GD,2012,Power,112.0,67.04,Replace,High,CarDekho and other listings in the dataset: Etios 1.4 diesel 67.04 bhp; Etios Liva G petrol 78.9 bhp
+2266,Toyota Etios Liva V,2012,Power,112.0,78.9,Replace,High,CarDekho and other listings in the dataset: Etios 1.4 diesel 67.04 bhp; Etios Liva G petrol 78.9 bhp
+2269,Toyota Qualis RS E2,2004,Power,112.0,75,Replace,Medium,other listings of the same model/engine in the dataset
+2307,Porsche Cayman 2009-2012 S tiptronic,2011,Power,112.0,315.6,Replace,High,"auto-data.net Cayman S (987c, 2009-2012): 320 PS = 315.6 bhp"
+2327,Maruti Swift 1.3 VXI ABS,2015,Power,112.0,88.2,Replace,High,"CarDekho Swift 2004-2010 1.3 VXi: 1298 cc, 88.2, 16.1 kmpl"
+2337,Maruti Swift 1.3 VXi,2007,Power,112.0,88.2,Replace,High,"CarDekho Swift 2004-2010 1.3 VXi: 1298 cc, 88.2, 16.1 kmpl"
+2345,Hyundai Santro AT,2006,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+2371,Maruti Estilo LXI,2008,Power,112.0,64,Replace,Medium,"other listings of the same model/engine in the dataset (Zen Estilo 1.1, 1061 cc)"
+2395,Toyota Etios GD,2012,Power,112.0,67.04,Replace,High,CarDekho and other listings in the dataset: Etios 1.4 diesel 67.04 bhp; Etios Liva G petrol 78.9 bhp
+2443,Toyota Etios Liva G,2011,Power,112.0,78.9,Replace,High,CarDekho and other listings in the dataset: Etios 1.4 diesel 67.04 bhp; Etios Liva G petrol 78.9 bhp
+2452,Tata Indica DLS,2009,Power,112.0,53.5,Replace,Medium,other listings of the same model/engine in the dataset (Indica 1405 cc diesel)
+2499,Maruti Swift VDI BSIV,2013,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+2503,Maruti Swift VDI BSIV,2016,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+2524,Mahindra Scorpio 2.6 CRDe,2005,Power,120.0,116.6,Replace,Medium,as above
+2529,Hyundai Santro Xing XO CNG,2005,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+2532,BMW 5 Series 520d Sedan,2014,Power,112.0,177,Replace,High,"CarDekho BMW 5 Series 2010-2013 520d Sedan: 1995 cc, 177 PS, 18.48 kmpl"
+2544,Hyundai Santro GLS II - Euro II,2011,Power,112.0,55.2,Replace,Medium,"ZigWheels Santro history: original 999 cc Santro = 56 PS (55.2 bhp); Zip Plus 1.1 = 63 PS; NOTE the 999 cc Santro was sold only until 2003, so Year or Engine is also doubtful"
+2581,Hyundai Santro Xing XG eRLX Euro III,2006,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+2599,Hyundai Santro Xing XP,2007,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+2625,BMW 5 Series 520d Sedan,2012,Power,112.0,177,Replace,High,"CarDekho BMW 5 Series 2010-2013 520d Sedan: 1995 cc, 177 PS, 18.48 kmpl"
+2637,Hyundai Santro Xing XG eRLX Euro III,2007,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+2642,Maruti Swift VDI BSIV,2007,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+2670,Maruti Swift 1.3 VXi,2014,Power,112.0,85.8,Replace,Medium,1197 cc K-series Swift (2010+) = 85.8 bhp in the dataset; the name's '1.3' is inconsistent
+2739,Maruti Wagon R Vx,2001,Power,112.0,64,Replace,Medium,other listings of the same model/engine in the dataset
+2782,Hyundai Santro GLS II - Euro II,2009,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+2844,Hyundai Santro GLS II - Euro II,2012,Power,112.0,55.2,Replace,Medium,"ZigWheels Santro history: original 999 cc Santro = 56 PS (55.2 bhp); Zip Plus 1.1 = 63 PS; NOTE the 999 cc Santro was sold only until 2003, so Year or Engine is also doubtful"
+2893,Maruti Swift VDI BSIV,2013,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+3035,Hyundai Santro Xing XP,2005,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+3063,Hyundai Santro GS,2005,Power,112.0,55.2,Replace,Medium,"ZigWheels Santro history: original 999 cc Santro = 56 PS (55.2 bhp); Zip Plus 1.1 = 63 PS; NOTE the 999 cc Santro was sold only until 2003, so Year or Engine is also doubtful"
+3103,Chevrolet Enjoy TCDi LS 8 Seater,2011,Power,63.1,73.8,Replace,Medium,"This row carries a Nissan Micra diesel's specs (1461 cc, 63.1 bhp, 23.08 kmpl); other Enjoy TCDi 8-seater listings in the dataset: 1248 cc, 73.8 bhp, 18.2 kmpl, 8 seats"
+3106,Maruti Swift VDI BSIV,2013,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+3191,Hyundai Santro GS zipDrive - Euro II,2002,Power,112.0,55.2,Replace,Medium,ZigWheels Santro history: original 999 cc Santro = 56 PS (55.2 bhp); Zip Plus 1.1 = 63 PS
+3249,Toyota Etios GD,2011,Power,112.0,67.04,Replace,High,CarDekho and other listings in the dataset: Etios 1.4 diesel 67.04 bhp; Etios Liva G petrol 78.9 bhp
+3274,BMW 5 Series 520d Sedan,2008,Power,112.0,177,Replace,High,"CarDekho BMW 5 Series 2010-2013 520d Sedan: 1995 cc, 177 PS, 18.48 kmpl"
+3292,Ford Fiesta 1.4 SXi TDCi,2008,Power,112.0,68,Replace,Medium,other listings of the same model/engine in the dataset
+3406,Maruti Swift 1.3 VXi,2006,Power,112.0,88.2,Replace,High,"CarDekho Swift 2004-2010 1.3 VXi: 1298 cc, 88.2, 16.1 kmpl"
+3441,Maruti Swift VDI BSIV W ABS,2010,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+3518,Hyundai Santro GLS I - Euro I,2011,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+3522,BMW 5 Series 520d Sedan,2012,Power,112.0,177,Replace,High,"CarDekho BMW 5 Series 2010-2013 520d Sedan: 1995 cc, 177 PS, 18.48 kmpl"
+3524,Hyundai Santro GLS II - Euro II,2012,Power,112.0,62.1,Replace,Low,1462 cc does not exist for a Santro; probably the 1086 cc Santro Xing engine (62.1 bhp)
+3535,Nissan Teana 230jM,2008,Power,112.0,170,Replace,High,"maxabout Teana 230 JM: 2349 cc, 170 bhp"
+3591,Tata Indica DLS,2005,Power,112.0,53.5,Replace,Medium,other listings of the same model/engine in the dataset (Indica 1405 cc diesel)
+3630,Maruti Swift VDI BSIV W ABS,2016,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+3640,Honda CR-V Sport,2010,Power,112.0,158.8,Replace,Low,3rd-gen CR-V 2.4 (160 PS) as in the 'CR-V 2.4L 4WD' listings in the dataset; if the car is the 2013+ 4th gen it is 187.4
+3647,Hyundai Santro Xing XP,2004,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+3671,Hyundai Santro Xing XO,2007,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+3735,Maruti Esteem Vxi,2005,Power,112.0,85,Replace,Medium,other listings of the same model/engine in the dataset
+3802,Ford Endeavour Hurricane LE,2012,Power,112.0,153.86,Replace,Medium,other listings of the same model/engine in the dataset (3.0 Hurricane)
+3812,Honda CR-V AT With Sun Roof,2013,Power,112.0,158.8,Replace,Low,3rd-gen CR-V 2.4 (160 PS) as in the 'CR-V 2.4L 4WD' listings in the dataset; if the car is the 2013+ 4th gen it is 187.4
+3884,Maruti Estilo LXI,2010,Power,112.0,64,Replace,Medium,"other listings of the same model/engine in the dataset (Zen Estilo 1.1, 1061 cc)"
+3900,Toyota Etios GD,2013,Power,112.0,67.04,Replace,High,CarDekho and other listings in the dataset: Etios 1.4 diesel 67.04 bhp; Etios Liva G petrol 78.9 bhp
+3932,Maruti Swift VDI BSIV W ABS,2015,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+4001,Audi A4 3.2 FSI Tiptronic Quattro,2012,Power,112.0,261.4,Replace,High,auto-data.net A4 B8 3.2 FSI quattro tiptronic: 265 PS = 261.4 bhp
+4013,Fiat Punto 1.3 Emotion,2011,Power,112.0,75,Replace,High,"CarDekho Punto 1.3 Emotion: 1248 cc, 75 bhp, 20.3 kmpl"
+4079,Maruti Baleno LXI - BSIII,2006,Power,112.0,94,Replace,Medium,other listings of the same model/engine in the dataset (old Baleno 1.6)
+4082,Toyota Etios Liva GD,2011,Power,112.0,67.04,Replace,High,CarDekho and other listings in the dataset: Etios 1.4 diesel 67.04 bhp; Etios Liva G petrol 78.9 bhp
+4154,Land Rover Range Rover 3.0 D,2003,Power,112.0,174.5,Replace,Medium,Range Rover (L322) Td6 3.0 diesel = 177 PS (174.5 bhp)
+4231,Hyundai Santro Xing XG,2005,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+4353,Maruti Esteem LX BSII,2003,Power,112.0,85,Replace,Medium,other listings of the same model/engine in the dataset
+4356,Toyota Etios Liva GD,2012,Power,112.0,67.04,Replace,High,CarDekho and other listings in the dataset: Etios 1.4 diesel 67.04 bhp; Etios Liva G petrol 78.9 bhp
+4579,BMW 5 Series 520d Sedan,2012,Power,112.0,177,Replace,High,"CarDekho BMW 5 Series 2010-2013 520d Sedan: 1995 cc, 177 PS, 18.48 kmpl"
+4606,Honda Jazz Select Edition,2011,Power,112.0,88.8,Replace,Medium,"other listings of the same model/engine in the dataset (same variant, 2010)"
+4689,Land Rover Freelander 2 TD4 SE,2012,Power,115.0,147.51,Replace,High,"CarDekho Freelander 2 SE: 2179 cc, 147.51 bhp, 12.39 kmpl (115 matches no published bhp figure for this engine; probably a unit or entry error)"
+4699,Fiat Punto 1.2 Dynamic,2017,Power,112.0,67,Replace,Low,Fiat 1.2 Fire petrol = 68 PS (67 bhp)
+4711,Maruti 1000 AC,1998,Power,112.0,45.4,Replace,Medium,auto-data.net Maruti 1000 1.0: 46 PS = 45.4 bhp
+4714,Hyundai Santro Xing XG,2003,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+4716,Mercedes-Benz E-Class 220 CDI,2011,Power,112.0,170,Replace,Medium,E 220 CDI: W210 (1999-2002) 143 PS = 141 bhp; W212 (2009+) 170 PS (as in other E 220 CDI listings in the dataset)
+4746,Hyundai Santro Xing XL eRLX Euro III,2005,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+4811,Mahindra Scorpio 2.6 LX,2010,Power,120.0,116.6,Replace,Low,as above
+4832,Maruti Esteem Vxi,2004,Power,112.0,85,Replace,Medium,other listings of the same model/engine in the dataset
+4888,Hyundai Santro Xing XL AT eRLX Euro II,2007,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+4902,Hyundai Santro Xing XL AT eRLX Euro III,2007,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+4906,Toyota Prius 2009-2016 Z4,2011,Power,73.0,97.6,Replace,Medium,73 is the petrol engine's output in kW (= 99 PS = 97.6 bhp)
+4954,Fiat Punto 1.4 Emotion,2010,Power,112.0,88.8,Replace,Medium,Fiat 1.4 Fire petrol = 90 PS (88.8 bhp)
+4956,Toyota Etios Liva GD,2013,Power,112.0,67.04,Replace,High,CarDekho and other listings in the dataset: Etios 1.4 diesel 67.04 bhp; Etios Liva G petrol 78.9 bhp
+5017,Maruti Swift 1.3 Vxi,2006,Power,112.0,88.2,Replace,Medium,"CarDekho Swift 2004-2010 1.3 VXi: 1298 cc, 88.2, 16.1 kmpl; before 2010 the Swift petrol was only the 1.3 (1298 cc), so Engine 1197 is also wrong"
+5018,Land Rover Freelander 2 TD4 HSE,2013,Power,115.0,147.51,Replace,High,"CarDekho Freelander 2 SE: 2179 cc, 147.51 bhp, 12.39 kmpl (115 matches no published bhp figure for this engine; probably a unit or entry error)"
+5024,Land Rover Freelander 2 TD4 SE,2013,Power,115.0,147.51,Replace,High,"CarDekho Freelander 2 SE: 2179 cc, 147.51 bhp, 12.39 kmpl (115 matches no published bhp figure for this engine; probably a unit or entry error)"
+5067,Maruti Swift VDI BSIV W ABS,2016,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+5121,Hyundai Santro Xing XP,2008,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+5187,Maruti Swift 1.3 LXI,2012,Power,112.0,85.8,Replace,Medium,1197 cc K-series Swift (2010+) = 85.8 bhp in the dataset; the name's '1.3' is inconsistent
+5230,Hyundai Santro Xing XL eRLX Euro III,2005,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+5272,Honda City 1.5 GXI,2002,Power,112.0,100,Replace,Medium,other listings of the same model/engine in the dataset (City 1.5 GXI)
+5313,Land Rover Freelander 2 TD4 SE,2012,Power,115.0,147.51,Replace,High,"CarDekho Freelander 2 SE: 2179 cc, 147.51 bhp, 12.39 kmpl (115 matches no published bhp figure for this engine; probably a unit or entry error)"
+5428,Hyundai Santro Xing XL,2006,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+5440,Ford Endeavour XLT TDCi 4X4,2007,Power,112.0,141,Replace,Medium,other listings of the same model/engine in the dataset (2.5 TDCi)
+5460,Maruti Swift VDI BSIV,2014,Power,112.0,74,Replace,High,"CarDekho Swift 2004-2010 VDI BSIV: 1248 cc, 74 bhp, 22.9 kmpl"
+5500,Mahindra Scorpio 2.6 SLX CRDe,2006,Power,120.0,116.6,Replace,Medium,as above
+5517,Mahindra Scorpio 2.6 SLX CRDe,2005,Power,120.0,116.6,Replace,Medium,as above
+5531,Hyundai Santro LP - Euro II,2005,Power,112.0,55.2,Replace,Medium,"ZigWheels Santro history: original 999 cc Santro = 56 PS (55.2 bhp); Zip Plus 1.1 = 63 PS; NOTE the 999 cc Santro was sold only until 2003, so Year or Engine is also doubtful"
+5535,Hyundai Santro Xing XO eRLX Euro II,2007,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+5649,Toyota Qualis Fleet A3,2001,Power,112.0,75,Replace,Medium,other listings of the same model/engine in the dataset
+5757,Hyundai Santro Xing XL eRLX Euro III,2008,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+5761,Hyundai Santro Xing XL eRLX Euro III,2007,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+5863,Hyundai Santro Xing XO,2007,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+5875,Hyundai Santro Xing XO eRLX Euro II,2006,Power,112.0,62.1,Replace,High,"CarDekho Santro Xing GLS spec page: 1086 cc, 62.1 bhp, 17.92 kmpl"
+5895,Maruti Estilo LXI,2008,Power,112.0,64,Replace,Medium,"other listings of the same model/engine in the dataset (Zen Estilo 1.1, 1061 cc)"
+5927,Skoda Laura Classic 1.8 TSI,2010,Power,112.0,157.8,Replace,Medium,other listings of the same model/engine in the dataset (1.8 TSI)
+5945,Mahindra Jeep MM 540 DP,2002,Power,112.0,62,Replace,Medium,"auto-data.net MM 540 DP: 2112 cc diesel, 62 hp"
+5987,Toyota Etios GD,2013,Power,112.0,67.04,Replace,High,CarDekho and other listings in the dataset: Etios 1.4 diesel 67.04 bhp; Etios Liva G petrol 78.9 bhp
+1548,Maruti Omni 8 Seater BSIV,2013,Seats,5,8,Replace,High,Seat count is in the name
+2254,Maruti Omni 8 Seater BSIV,2015,Seats,5,8,Replace,High,Seat count is in the name
+2493,Maruti Omni 8 Seater BSIV,2011,Seats,5,8,Replace,High,Seat count is in the name
+3103,Chevrolet Enjoy TCDi LS 8 Seater,2011,Seats,5,8,Replace,High,"This row carries a Nissan Micra diesel's specs (1461 cc, 63.1 bhp, 23.08 kmpl); other Enjoy TCDi 8-seater listings in the dataset: 1248 cc, 73.8 bhp, 18.2 kmpl, 8 seats"
+3109,Maruti Omni 8 Seater BSIV,2017,Seats,5,8,Replace,High,Seat count is in the name
+3744,Maruti Omni 8 Seater BSIV,2017,Seats,5,8,Replace,High,Seat count is in the name
+4517,Toyota Innova 2.5 G (Diesel) 7 Seater BS IV,2009,Seats,8,7,Replace,High,Seat count is in the name
+4520,Toyota Innova 2.5 G (Diesel) 7 Seater BS IV,2007,Seats,8,7,Replace,High,Seat count is in the name
+5555,Mitsubishi Pajero 2.8 SFX 7Str,2012,Seats,6,7,Replace,High,Seat count is in the name
+2717,Maruti Swift AMT DDiS VDI,2018,Transmission,Manual,Automatic,Replace,High,AMT is an automatic gearbox
+4448,Mahindra E Verito D4,2016,Engine,72,,Set missing,High,Electric car: it has no engine displacement
+1766,Mercedes-Benz M-Class ML 350 4Matic,2015,Mileage,0.0,,Set missing,High,"CarDekho ML 350 4Matic: 2987 cc diesel, mileage not published (the 0 means missing)"
+3212,Mercedes-Benz M-Class ML 350 4Matic,2016,Mileage,0.0,,Set missing,High,"CarDekho ML 350 4Matic: 2987 cc diesel, mileage not published (the 0 means missing)"
+4414,Mercedes-Benz M-Class ML 350 4Matic,2016,Mileage,0.0,,Set missing,High,"CarDekho ML 350 4Matic: 2987 cc diesel, mileage not published (the 0 means missing)"
+4706,Mercedes-Benz M-Class ML 350 4Matic,2015,Mileage,0.0,,Set missing,High,"CarDekho ML 350 4Matic: 2987 cc diesel, mileage not published (the 0 means missing)"
+5376,Mercedes-Benz M-Class ML 350 4Matic,2012,Mileage,0.0,,Set missing,High,"CarDekho ML 350 4Matic: 2987 cc diesel, mileage not published (the 0 means missing)"
+1296,Honda City 1.3 DX,2009,Power,112.0,,Set missing,Low,"Conflicting row: '1.3 DX' is a 1343 cc / 90 bhp variant sold before 2006, but Engine is 1497 and Year 2009"
+1462,Land Rover Range Rover Sport 2005 2012 Sport,2008,Power,112.0,,Set missing,Low,"Conflicting row: no manual or 3.6-litre petrol Range Rover Sport existed; 3628 cc suggests the 3.6 TDV8 diesel (automatic, 268 bhp)"
+2055,Mahindra Jeep MM 550 PE,2009,Power,112.0,,Set missing,Low,"Could not verify: auto-data lists MM 550 PE as a 2.1 petrol (94 hp), which contradicts Diesel/2498 cc in this row"
+4631,Fiat Siena 1.2 ELX,2001,Power,112.0,,Set missing,Low,Could not find a published figure for the Siena 1.2 ELX
+441,Honda City ZX GXi,2008,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 326 (same car, year, city, km, owner)"
+1282,Hyundai i20 1.2 Magna,2010,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 1016 (same car, year, city, km, owner)"
+1866,Audi Q5 30 TDI quattro Premium Plus,2014,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 453 (same car, year, city, km, owner)"
+2809,Audi Q3 2012-2015 35 TDI Quattro Premium,2015,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 2464 (same car, year, city, km, owner)"
+3039,Honda City i VTEC CVT VX,2015,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 2181 (same car, year, city, km, owner)"
+3050,Maruti Vitara Brezza VDi Option,2017,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 2386 (same car, year, city, km, owner)"
+3056,Hyundai Verna 1.6 SX VTVT,2014,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 2492 (same car, year, city, km, owner)"
+3730,Toyota Fortuner 4x2 AT,2014,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 2564 (same car, year, city, km, owner)"
+3832,Toyota Fortuner 4x2 AT,2014,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 2564 (same car, year, city, km, owner)"
+3898,Maruti Swift Dzire VDi,2010,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 918 (same car, year, city, km, owner)"
+4279,Mercedes-Benz A Class A180 CDI,2013,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 785 (same car, year, city, km, owner)"
+4316,Datsun GO NXT,2016,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 159 (same car, year, city, km, owner)"
+4519,Audi A4 New 2.0 TDI Multitronic,2012,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 1870 (same car, year, city, km, owner)"
+5145,Mahindra XUV500 W4,2016,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 1526 (same car, year, city, km, owner)"
+5159,Renault KWID RXT,2016,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 3354 (same car, year, city, km, owner)"
+5321,Honda Accord 2001-2003 2.0 AT,2010,(whole row),,,Drop row,Low,"Conflicting row: name (2001-2003, 2.0), Engine 2354 cc and Year 2010 cannot all be right"
+5490,Audi A4 2.0 TDI,2009,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 5431 (same car, year, city, km, owner)"
+5880,Hyundai Grand i10 Asta,2014,(whole row),,,Drop row,Medium,"Probable duplicate of Excel row 1820 (same car, year, city, km, owner)"
+3061,BMW 3 Series 320d Luxury Line,2019,Price,6.67,,Drop row,High,"6.67 lakh for a 2019 BMW 320d (similar cars ~28 lakh) — a typo, true value unknown"
+3134,Porsche Cayenne Base,2019,Price,2.02,,Drop row,High,"2.02 lakh for a 2019 Porsche Cayenne (similar cars ~84 lakh) — a typo, true value unknown"
+5077,Mercedes-Benz New C-Class C 200 Kompressor Elegance AT,2007,Price,29.0,,Drop row,High,"29.0 lakh for a 2007 C 200 Kompressor (similar cars ~8.5 lakh) — a typo, true value unknown"
+49,Toyota Innova Crysta 2.7 GX MT,2012,Year,2012,,Drop row,High,Innova Crysta launched in India in 2016; registration year 2012 is impossible and the true year is unknown
+1487,Toyota Fortuner 3.0 Diesel,2019,Year,2019,,Drop row,Medium,"Fortuner 3.0 was discontinued in 2016, and price 8.99 / 80,000 km fit a ~2009 car; Year 2019 is wrong, true year unknown"
+2121,Ford Freestyle Titanium Petrol,2007,Year,2007,,Drop row,High,Freestyle launched in India in 2018; registration year 2007 is impossible and the true year is unknown
+5395,Hyundai Grand i10 1.2 Kappa Magna,2010,Year,2010,,Drop row,High,Grand i10 launched in India in 2013; registration year 2010 is impossible and the true year is unknown
+5984,Tata Hexa XTA,2016,Year,2016,,Drop row,High,Hexa launched in India in 2017; registration year 2016 is impossible and the true year is unknown
+178,Mini Countryman Cooper D,2017,Power,112.0,112,Keep (value is correct),High,CarDekho Mini Cooper Countryman D: 112 bhp — 112 is the real value
+625,Mahindra Xylo E8,2009,Power,112.0,112,Keep (value is correct),High,MotorBeam/CarTrade: Xylo mEagle 2.5 CRDe = 112 bhp @ 3800 — 112 is the real value
+1478,Mini Cooper Countryman D,2013,Power,112.0,112,Keep (value is correct),High,CarDekho Mini Cooper Countryman D: 112 bhp — 112 is the real value
+1680,Mahindra Xylo E8 ABS BS IV,2014,Power,112.0,112,Keep (value is correct),High,MotorBeam/CarTrade: Xylo mEagle 2.5 CRDe = 112 bhp @ 3800 — 112 is the real value
+1849,Mini Cooper Countryman D High,2014,Power,112.0,112,Keep (value is correct),High,CarDekho Mini Cooper Countryman D: 112 bhp — 112 is the real value
+2028,Mahindra Xylo E4,2011,Power,112.0,112,Keep (value is correct),High,MotorBeam/CarTrade: Xylo mEagle 2.5 CRDe = 112 bhp @ 3800 — 112 is the real value
+2272,Mini Cooper Countryman D High,2015,Power,112.0,112,Keep (value is correct),High,CarDekho Mini Cooper Countryman D: 112 bhp — 112 is the real value
+2706,Hyundai Tucson CRDi,2007,Power,112.0,112,Keep (value is correct),High,CarDekho Tucson 2005-2010 CRDi: 112 PS — 112 is the real value
+2792,Mahindra Xylo E8 ABS BS IV,2016,Power,112.0,112,Keep (value is correct),High,MotorBeam/CarTrade: Xylo mEagle 2.5 CRDe = 112 bhp @ 3800 — 112 is the real value
+3022,Hyundai Tucson CRDi,2006,Power,112.0,112,Keep (value is correct),High,CarDekho Tucson 2005-2010 CRDi: 112 PS — 112 is the real value
+3765,Mahindra Xylo E4,2009,Power,112.0,112,Keep (value is correct),High,MotorBeam/CarTrade: Xylo mEagle 2.5 CRDe = 112 bhp @ 3800 — 112 is the real value
+3782,Mahindra Xylo E4 ABS BS III,2013,Power,112.0,112,Keep (value is correct),High,MotorBeam/CarTrade: Xylo mEagle 2.5 CRDe = 112 bhp @ 3800 — 112 is the real value
+4280,Mahindra Xylo E2,2010,Power,112.0,112,Keep (value is correct),High,MotorBeam/CarTrade: Xylo mEagle 2.5 CRDe = 112 bhp @ 3800 — 112 is the real value
+4640,Mahindra Xylo E4 ABS BS III,2013,Power,112.0,112,Keep (value is correct),High,MotorBeam/CarTrade: Xylo mEagle 2.5 CRDe = 112 bhp @ 3800 — 112 is the real value
+4744,Mini Cooper Countryman D,2014,Power,112.0,112,Keep (value is correct),High,CarDekho Mini Cooper Countryman D: 112 bhp — 112 is the real value
+4776,Mahindra Xylo E8 BS IV,2011,Power,112.0,112,Keep (value is correct),High,MotorBeam/CarTrade: Xylo mEagle 2.5 CRDe = 112 bhp @ 3800 — 112 is the real value
+5980,Mahindra Xylo D4,2016,Power,112.0,112,Keep (value is correct),High,MotorBeam/CarTrade: Xylo mEagle 2.5 CRDe = 112 bhp @ 3800 — 112 is the real value
+6018,Mahindra Xylo D4 BSIV,2012,Power,112.0,112,Keep (value is correct),High,MotorBeam/CarTrade: Xylo mEagle 2.5 CRDe = 112 bhp @ 3800 — 112 is the real value
+1462,Land Rover Range Rover Sport 2005 2012 Sport,2008,Price,40.88,40.88,Keep (value is plausible),Medium,Rare luxury car or row with a spec error (fixed above); the price itself is plausible
+2097,Mercedes-Benz SLC 43 AMG,2019,Price,83.96,83.96,Keep (value is plausible),Medium,Rare luxury car or row with a spec error (fixed above); the price itself is plausible
+4579,BMW 5 Series 520d Sedan,2012,Price,13.85,13.85,Keep (value is plausible),Medium,Rare luxury car or row with a spec error (fixed above); the price itself is plausible
+4906,Toyota Prius 2009-2016 Z4,2011,Price,12.75,12.75,Keep (value is plausible),Medium,Rare luxury car or row with a spec error (fixed above); the price itself is plausible
+5343,Porsche Cayenne S Diesel,2016,Price,67.83,67.83,Keep (value is plausible),Medium,Rare luxury car or row with a spec error (fixed above); the price itself is plausible
+5523,Bentley Continental Flying Spur,2006,Price,59.0,59.0,Keep (value is plausible),Medium,Rare luxury car or row with a spec error (fixed above); the price itself is plausible
+279,Tata Zest Quadrajet 1.3 75PS XE,2017,Kilometers_Driven,121900,121900,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+491,Mercedes-Benz GLS 350d 4MATIC,2017,Kilometers_Driven,129000,129000,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+574,Hyundai Verna 1.6 SX CRDI (O) AT,2019,Kilometers_Driven,77240,77240,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+840,Mahindra Xylo H4,2016,Kilometers_Driven,215000,215000,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+954,Toyota Innova Crysta 2.4 ZX MT,2018,Kilometers_Driven,92056,92056,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+1149,Maruti Vitara Brezza ZDi,2018,Kilometers_Driven,64456,64456,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+1411,Maruti Swift Dzire Tour LDI,2017,Kilometers_Driven,148000,148000,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+1487,Toyota Fortuner 3.0 Diesel,2019,Kilometers_Driven,80000,80000,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+1746,Maruti Ertiga SHVS VDI,2017,Kilometers_Driven,121000,121000,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+1960,Hyundai Verna 1.6 SX CRDI (O) AT,2018,Kilometers_Driven,75000,75000,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+2475,Maruti Ciaz ZDi Plus,2018,Kilometers_Driven,68737,68737,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+2676,Tata Indica V2 eLS,2017,Kilometers_Driven,129000,129000,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+2760,Maruti Swift VDI Optional,2018,Kilometers_Driven,61386,61386,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+3061,BMW 3 Series 320d Luxury Line,2019,Kilometers_Driven,87000,87000,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+3409,Mahindra XUV500 AT W10 AWD,2018,Kilometers_Driven,82739,82739,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+4401,Maruti Swift Dzire AMT ZDI,2019,Kilometers_Driven,65000,65000,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+4497,Maruti Dzire AMT ZDI Plus,2018,Kilometers_Driven,64035,64035,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+5548,Honda Amaze VX i-DTEC,2017,Kilometers_Driven,128000,128000,Keep (cannot verify),Low,High but possible (e.g. taxi use); only the original listing can confirm
+1311,Volkswagen Beetle 2.0,2009,Price,15.95,15.95,Keep (cannot verify),Low,15.95 lakh for a 2009 Beetle is high (similar ~5.7); could not be checked against the original listing
+1550,Mercedes-Benz E-Class 2009-2013 E250 CDI Elegance,2016,Year,2016,2016,Keep (cannot verify),Low,"Name says 2009–2013; usually the name's version label is the wrong part, not the year. No effect on the model"
+2214,Maruti Alto 800 2016-2019 LXI,2013,Year,2013,2013,Keep (cannot verify),Low,"Name says 2016–2019; usually the name's version label is the wrong part, not the year. No effect on the model"
+2398,Hyundai i20 2015-2017 1.4 Magna ABS,2012,Year,2012,2012,Keep (cannot verify),Low,"Name says 2015–2017; usually the name's version label is the wrong part, not the year. No effect on the model"
+2491,Hyundai i20 2015-2017 1.2 Asta,2010,Year,2010,2010,Keep (cannot verify),Low,"Name says 2015–2017; usually the name's version label is the wrong part, not the year. No effect on the model"
+2504,Honda Accord 2001-2003 2.3 VTi L AT,2009,Year,2009,2009,Keep (cannot verify),Low,"Name says 2001–2003; usually the name's version label is the wrong part, not the year. No effect on the model"
+2629,Maruti Alto 800 2016-2019 LXI,2014,Year,2014,2014,Keep (cannot verify),Low,"Name says 2016–2019; usually the name's version label is the wrong part, not the year. No effect on the model"
+3146,Volkswagen Jetta 2012-2014 1.4 TSI,2018,Year,2018,2018,Keep (cannot verify),Low,"Name says 2012–2014; usually the name's version label is the wrong part, not the year. No effect on the model"
+3316,Honda Accord 2001-2003 2.3 VTi L AT,2010,Year,2010,2010,Keep (cannot verify),Low,"Name says 2001–2003; usually the name's version label is the wrong part, not the year. No effect on the model"
+3455,BMW 5 Series 2003-2012 530d,2016,Year,2016,2016,Keep (cannot verify),Low,"Name says 2003–2012; usually the name's version label is the wrong part, not the year. No effect on the model"
+3506,Maruti Alto 800 2016-2019 LXI,2013,Year,2013,2013,Keep (cannot verify),Low,"Name says 2016–2019; usually the name's version label is the wrong part, not the year. No effect on the model"
+3641,Hyundai i20 2015-2017 Sportz AT 1.4,2012,Year,2012,2012,Keep (cannot verify),Low,"Name says 2015–2017; usually the name's version label is the wrong part, not the year. No effect on the model"
+3770,Hyundai i20 2015-2017 1.2 Magna,2012,Year,2012,2012,Keep (cannot verify),Low,"Name says 2015–2017; usually the name's version label is the wrong part, not the year. No effect on the model"
+3871,Maruti Alto 800 2016-2019 CNG LXI,2012,Year,2012,2012,Keep (cannot verify),Low,"Name says 2016–2019; usually the name's version label is the wrong part, not the year. No effect on the model"
+3977,Mercedes-Benz E-Class 2009-2013 E250 CDI Elegance,2016,Year,2016,2016,Keep (cannot verify),Low,"Name says 2009–2013; usually the name's version label is the wrong part, not the year. No effect on the model"
+4536,Hyundai i20 2015-2017 1.2 Asta with AVN,2010,Year,2010,2010,Keep (cannot verify),Low,"Name says 2015–2017; usually the name's version label is the wrong part, not the year. No effect on the model"
+4745,Toyota Corolla Altis 2008-2013 1.8 VL AT,2016,Year,2016,2016,Keep (cannot verify),Low,"Name says 2008–2013; usually the name's version label is the wrong part, not the year. No effect on the model"
+4895,BMW Z4 2009-2013 Roadster 2.5i,2018,Year,2018,2018,Keep (cannot verify),Low,"Name says 2009–2013; usually the name's version label is the wrong part, not the year. No effect on the model"
+5118,Tata Indica V2 2001-2011 eLS,2015,Year,2015,2015,Keep (cannot verify),Low,"Name says 2001–2011; usually the name's version label is the wrong part, not the year. No effect on the model"
+5321,Honda Accord 2001-2003 2.0 AT,2010,Year,2010,2010,Keep (cannot verify),Low,"Name says 2001–2003; usually the name's version label is the wrong part, not the year. No effect on the model"
+5982,Hyundai i20 2015-2017 Magna,2010,Year,2010,2010,Keep (cannot verify),Low,"Name says 2015–2017; usually the name's version label is the wrong part, not the year. No effect on the model"
